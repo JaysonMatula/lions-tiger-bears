@@ -35,7 +35,7 @@ async function loadByBreed(breed) {
 function createSlideshow(images) {
   let currentPosition = 0
   clearInterval(timer)
-  clearTimeout(deletedFirstPhotoDelay)
+  clearTimeout(deleteFirstPhotoDelay)
   
   if (images.length > 1) {
 document.getElementById("slideshow").innerHTML = `
